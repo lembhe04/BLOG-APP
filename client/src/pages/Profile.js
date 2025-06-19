@@ -108,7 +108,7 @@ function Profile() {
 const styles = {
   page: {
     minHeight: '100vh',
-    backgroundColor: '#f3f4f6',
+    backgroundColor: '#007bff',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
@@ -117,7 +117,7 @@ const styles = {
   card: {
     backgroundColor: '#fff',
     borderRadius: '12px',
-    padding: '30px',
+    padding: '150px',
     width: '100%',
     maxWidth: '400px',
     boxShadow: '0 6px 15px rgba(0,0,0,0.1)',

@@ -50,3 +50,7 @@ CREATE TABLE notifications (
     seen BOOLEAN DEFAULT FALSE,
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
+
+
+ALTER TABLE blogs ADD COLUMN status ENUM('pending', 'approved') DEFAULT 'pending';
+ALTER TABLE blogs ADD COLUMN status VARCHAR(20) DEFAULT 'pending';
